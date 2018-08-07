@@ -1,0 +1,32 @@
+body {
+    background-image: url("../images/fundo.jpg");
+    display: flex;
+    margin-top: 450px;
+    position: absolute;
+    
+}
+
+body div img {
+    align-items: flex-end;
+    justify-content: end;
+    animation: andar 6s linear infinite;
+    
+
+}
+
+@keyframes andar{
+    0%{
+        margin-left: 0;
+    }
+    50%{
+        transform: scale(-1);
+        margin-left: 1000px;
+    }
+    75%{
+        margin-left: 1000px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+
+}

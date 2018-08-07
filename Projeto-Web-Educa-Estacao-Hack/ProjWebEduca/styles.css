@@ -1,0 +1,52 @@
+header{
+    background-color: black;
+    color: darkblue;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/edu1.jpg);
+    text-align: center;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 40px;
+    text-align: center;
+
+}
+
+#menu{
+    height: 50px;
+    
+    
+}
+#menu ul{
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+}
+#menu ul li a{
+    
+
+}
+#submenu{
+    border: 1px solid white;
+    height: 80px;
+    width: 800px;
+}
+#patrocinador{
+    font-weight: bold;
+}
+nav{
+    border: 1px solid white;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.6;
+}
+nav li{
+    text-decoration: none;
+    list-style-type: none;
+}

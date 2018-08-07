@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QUICK-SORT</title>
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="images/sort.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <a href="#intro">Introdução</a>
+        <a href="#casos">Casos</a>
+        <a href="#pivo">Escolha do pivô</a>
+        <a href="#exemplo">Exemplo</a>
+    </nav>
+    <section id="intro">
+        <h1>
+            O que é QuickSort?
+        </h1>
+        <p>
+            Um método de ordenação consideravelmente mais rápido e eficiente que outros, porque usa o método de divisão e conquista.
+        </p>
+    </section>
+    <section id="casos">
+        <div>
+            <h2>
+                Pior caso
+            </h2>
+            <p>
+                O elemento pivô divide a lista de forma desigual.
+            </p>
+        </div>
+        <div>
+            <h2>
+                Melhor caso
+            </h2>
+            <p>
+                As duas sublistas tem tamanhos idênticos.
+            </p>
+        </div>
+    </section>
+    <section id="pivo">
+        <h2>
+            Como selecionar o pivô?
+        </h2>
+        <p>
+            Existem várias formas de selecionar o pivô,
+            <br> o mais simples é selecionar o primeiro elemento da
+            <br> lista, no entanto você pode cair no pior caso.
+            <br> Para contornar essa situação um bom método é a “média-dos-três”.
+        </p>
+    </section>
+    <section id="exemplo">
+        <h2>
+            Exemplo
+        </h2>
+        <a href="#custom_video_play" id="myButton" onclick="makeBig()">
+            <img src="images/play.png">
+        </a>
+        <video id="custom_video_play" width="850" controls="controls">>
+            <source src="video/videoplayback.mp4" type="video/mp4">
+    </section>
+</body>
+<script>
+    var myVideo = document.getElementById("custom_video_play");
+    var myButton = document.getElementById("myButton");
+
+    function makeBig() {
+        myVideo.play();
+        myButton.style.display = "none";
+        myVideo.style.display = "flex";
+
+    }
+</script>
+
+</html>

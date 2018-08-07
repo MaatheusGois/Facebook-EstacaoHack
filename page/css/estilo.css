@@ -1,0 +1,194 @@
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: #eeeeee;
+
+}
+header{
+    display: flex;
+    width: 100vw;
+    height: 20vw;
+    margin: 0;
+}
+.nomes0{
+    font-size: 100%;
+    color: white;
+}
+.nomes{
+    font-size: 100%;
+}
+.nomes2{
+    font-size: 100%;
+
+}
+.nomes3{
+    font-size: 100%;
+}
+.img0{
+    background-color:white;
+}
+.img1{
+    background-color:#3598db;
+}
+.img2{
+    background-color:#9b58b5;
+}
+.img3{
+    background-color:#e77e23;
+}
+.img4{
+    background-color:#e84c3d;
+}
+#perfil{
+    margin: 0;
+    width: 20vw;
+}
+#perfil img{
+    margin: 0;
+    width: 20vw;
+    height: 20vw;
+}
+
+#nome{
+    display: flex;
+    margin: 0;
+    width: 50vw;
+    height: 20vw;
+    flex-direction: column;
+    background-color: #3074a3;
+
+}
+
+#nome2{
+    display: flex;
+    margin: 0;
+    width: 30vw;
+    height: 20vw;
+    flex-direction: column;
+    background-color: #266996;
+
+}
+
+.nome{
+    margin: 0;
+    width: 50vw;
+    height: 10vw;
+    text-align: center;
+}
+.nome2{
+    margin: 0;
+    width: 30vw;
+    height: 10vw;
+    text-align: center;
+}
+.linkPerfil{
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+}
+.linkPerfil div{
+
+    margin: 0;
+    display: flex;
+    width: 16.66666vw;
+    height: 10vw;
+    justify-content: center;
+    align-items: center;
+}
+.linkPerfil div img{
+    align-self: center;
+    display: flex;
+    margin: 0;
+    height: 30%;
+    width: 30%;
+}
+
+.linkPerfil2{
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+}
+.linkPerfil2 div{
+
+    margin: 0;
+    display: flex;
+    width: 15vw;
+    height: 10vw;
+    justify-content: center;
+    align-items: center;
+}
+.linkPerfil2 div img{
+    align-self: center;
+    display: flex;
+    margin: 0;
+    height: 30%;
+    width: 30%;
+}
+
+#quem{
+    width: 100vw;
+    height: 35w;
+    margin: 0;
+    background-color: white;
+}
+#quem div{
+    margin: 7%;
+}
+
+#contato{
+    display: flex;
+    width: 100vw;
+    height: 40vw;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.contato2{
+    width: 30vw;
+    height: 35vw;
+    margin: 0;
+}
+.contato2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+#contato div div img{
+    height: 15%;
+    width: 15%;
+}
+
+@media (max-width: 400px) {
+    #mu{
+        font-size: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 300px) {
+    #mu{
+        font-size: 70%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 260px) {
+    #mu{
+        font-size: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 210px) {
+    #mu{
+        font-size: 20%;
+        justify-content: center;
+        align-items: center;
+    }
+}
